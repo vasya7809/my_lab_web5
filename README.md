@@ -1,1 +1,1 @@
-# my_lab_web5
+<a href="2.html">ГОЛОВНА</a>
