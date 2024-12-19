@@ -1,5 +1,5 @@
-/* Загальні стилі */
-* {
+ /* Загальні стилі */
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -116,6 +116,29 @@ img:hover {
     transform: scale(1.05);
 }
 
+/* Кнопки */
+button {
+    background-color: #3f51b5; /* Початковий колір кнопки */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Зміна кольору кнопки при наведенні */
+button:hover {
+    background-color: #303f9f; /* Темніший синій при наведенні */
+    transform: scale(1.05); /* Легке збільшення кнопки при наведенні */
+}
+
+/* Опціонально: Зміна кольору при натисканні */
+button:active {
+    background-color: #1a237e; /* Ще темніший відтінок при натисканні */
+}
+
 /* Відповідальна верстка */
 @media (max-width: 768px) {
     nav {
@@ -165,6 +188,5 @@ footer {
     padding: 10px;
     width: 100%;
 }
-
 
 
